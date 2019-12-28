@@ -1,0 +1,120 @@
+body{
+    
+    margin: 0;
+    background-color:#BF7530;
+
+
+}
+
+.header{
+
+    width: 100%;
+    background: rgb(253, 173, 1);
+    height: 100px;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;   
+}
+.imggg{
+    
+   position: relative; /* относительное позиционирование */
+    width: 400px; /* размер */
+    height: 300px;
+    top: 10px;
+    padding: 10px;/* раздвигаем обьекты*/
+    border-radius: 30px;
+
+}
+.centre{
+    text-align: center;
+    grid-column: 2/3;
+    
+    
+}
+
+table{
+    /*position: relative;
+    left: 470px;
+   top: 10px;*/
+   position: relative;
+    top: px;
+   margin: auto;
+     width: 600px;
+}
+td{
+    padding: 3px;
+    border: 1px solid black;
+}
+th{
+    padding: 3px;
+    border: 1px solid black;
+}
+a{
+    text-align: center; 
+    padding: 10px;/* раздвигаем обьекты*/
+    color: rgb(16, 19, 207);
+}
+.FullPage{
+    position: relative;
+    top: 15px;
+   right: 12px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    position: relative;
+    background-color:#FF9B40;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px #BF7530;
+    top: 10px;
+    
+    
+    
+}
+.text{
+    text-align: right;
+    
+}
+.texttable{
+    top: 5px;
+}
+.logo {
+    float: left;
+
+  }
+  nav {
+    position: relative;
+    top: 30px;
+  text-align: center;
+  float: centre;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+}
+nav a {
+  text-decoration: none;
+  line-height: 38px;
+}
+.firstimg{
+    min-width: 100%;
+    max-height: 600px;
+}
+.headerimg{
+  position: relative;
+  margin: auto;
+  width: 150px;
+  height: 80px;
+}
+
+
+
+
+
+

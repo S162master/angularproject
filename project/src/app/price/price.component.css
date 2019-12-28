@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+}
+img{
+    position: relative; /* относительное позиционирование */
+    width: 300px; /* размер */
+    height: 200px;
+    top: 10px;
+    padding: 10px;/* раздвигаем обьекты*/
+}
+h3{
+    text-align: center; 
+    
+}
